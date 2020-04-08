@@ -720,13 +720,11 @@ audio:not([controls]) {
 a {
     background-color:transparent;
     text-decoration:none;
-    cursor:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/ayuda.cur),auto
 }
 a:active,a:hover {
     outline:0
 }
 a:active {
-    cursor:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/work.cur),alias
 }
 abbr[title] {
     border-bottom:1px dotted
@@ -847,7 +845,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 p {
     margin-bottom:1.5em;
-    cursor:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/texto.cur),auto
 }
 dfn,cite,em,i {
     font-style:italic
@@ -863,7 +860,7 @@ blockquote:before {
     position:absolute;
     top:-25px;
     left:12px;
-    color:orange;
+    color:#ff6666;
     font-family:FontAwesome
 }
 blockquote:after {
@@ -872,7 +869,7 @@ blockquote:after {
     position:absolute;
     bottom:-25px;
     right:-5px;
-    color:orange;
+    color:#ff6666;
     font-family:FontAwesome
 }
 blockquote p {
@@ -933,7 +930,6 @@ html {
 body {
     background:#fff;
     background-attachment:fixed;
-    cursor:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/normal.cur),auto
 }
 blockquote:before,blockquote:after,q:before,q:after {
     content:""
@@ -1021,14 +1017,14 @@ a {
     transition:color .2s ease-out,border .2s ease-out,opacity .2s ease-out
 }
 a:hover,a:focus,a:active {
-    color:orange
+    color:#ff6666
 }
 a:focus {
     outline:0
 }
 a:hover,a:active {
     outline:0;
-    color:orange
+    color:#ff6666
 }
 .site-top {
     width:100%;
@@ -1383,7 +1379,7 @@ a:hover,a:active {
     font-weight:400
 }
 .site-title a:hover {
-    color:orange
+    color:#ff6666
 }
 .site-title img {
     height:40px;
@@ -1479,7 +1475,7 @@ a:hover,a:active {
     color:#666
 }
 .site-top ul li a:hover {
-    color:orange
+    color:#ff6666
 }
 .site-top ul li a:after {
     content:"";
@@ -1487,7 +1483,7 @@ a:hover,a:active {
     position:absolute;
     bottom:-16px;
     height:6px;
-    background-color:#fe9600;
+    background-color:#ff6666;
     width:100%;
     max-width:0;
     transition:max-width .25s ease-in-out
@@ -1498,7 +1494,7 @@ a:hover,a:active {
     position:absolute;
     bottom:-21px;
     height:6px;
-    background-color:#fe9600;
+    background-color:#ff6666;
     width:100%;
     max-width:0;
     transition:max-width .25s ease-in-out
@@ -1670,7 +1666,7 @@ a:hover,a:active {
     color:#504e4e
 }
 .entry-title a:hover {
-    color:orange
+    color:#ff6666
 }
 .p-time {
     position:absolute;
@@ -2006,8 +2002,8 @@ i.iconfont.hotpost {
 }
 .navigator i:hover {
     color:#fff;
-    background:orange;
-    border:2px solid orange;
+    background:#ff6666;
+    border:2px solid #ff6666;
     -webkit-transition:all .2s ease-in-out;
     -moz-transition:all .2s ease-in-out;
     -o-transition:all .2s ease-in-out;
@@ -2029,7 +2025,7 @@ i.iconfont.hotpost {
     color:#b9b9b9
 }
 .site-info a:hover {
-    color:orange
+    color:#ff6666
 }
 .footertext p {
     margin-bottom:8px
@@ -2138,8 +2134,8 @@ i.iconfont.hotpost {
     text-decoration:underline dotted rgba(0,0,0,.1)
 }
 .entry-content a:hover {
-    color:orange;
-    text-decoration:underline orange
+    color:#ff6666;
+    text-decoration:underline #ff6666
 }
 h1.entry-title {
     font-size:24px;
@@ -2153,14 +2149,14 @@ h1.entry-title {
 }
 .entry-header h1.entry-title:before {
     content:" {";
-    color:#f8ba0b;
+    color:#ff6666;
     font-size:1.5em;
     margin-right:6px;
     vertical-align:sub
 }
 .entry-header h1.entry-title:after {
     content:"}";
-    color:#f8ba0b;
+    color:#ff6666;
     font-size:1.5em;
     margin-left:6px;
     vertical-align:sub
@@ -2237,7 +2233,6 @@ h1.page-title.mb- {
     background-size:contain;
     -webkit-transition:all .5s ease-in-out;
     transition:all .5s ease-in-out;
-    cursor:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur),auto;
     opacity:1
 }
 .cd-top.cd-is-visible {
@@ -2319,7 +2314,7 @@ h1.page-title.mb- {
     margin-right:5px
 }
 .post-tags a:hover {
-    color:orange
+    color:#ff6666
 }
 .post-tags i {
     margin-right:5px
@@ -2379,7 +2374,7 @@ h1.page-title.mb- {
     margin-right:10px
 }
 .post-share ul li a:hover {
-    color:orange
+    color:#ff6666
 }
 .post-share .show-share {
     margin-left:10px;
@@ -2845,7 +2840,7 @@ h3#comments-list-title {
     margin:auto
 }
 .butterBar-message {
-    background:#fe9600;
+    background:#ff6666;
     color:#fff;
     border-bottom-left-radius:4px;
     border-bottom-right-radius:4px;
@@ -3018,7 +3013,7 @@ h1.works-title {
     font-style:italic;
     font-size:20px;
     font-weight:400;
-    color:orange;
+    color:#ff6666;
     margin-left:30px;
     margin-top:50px
 }
@@ -3044,7 +3039,7 @@ span.time {
 .ar-time i {
     padding:10px;
     border-radius:100px;
-    background:orange;
+    background:#ff6666;
     color:#fff
 }
 .ar-time {
@@ -3070,7 +3065,7 @@ span.time {
 span.ar-circle {
     height:10px;
     width:10px;
-    background:orange;
+    background:#ff6666;
     display:inline-block;
     position:absolute;
     left:-5px;
@@ -3152,7 +3147,7 @@ header.page-header {
     -ms-transform:rotate(360deg)
 }
 span.sitename {
-    color:orange;
+    color:#ff6666;
     padding-bottom:10px;
     display:block;
     -webkit-transition:all .3s;
@@ -3183,11 +3178,11 @@ span.sitename {
 }
 .link-title span.fake-title {
     padding-left:10px;
-    border-left:3px solid orange
+    border-left:3px solid #ff6666
 }
 .links ul li:before {
     content:"";
-    background-color:orange;
+    background-color:#ff6666;
     -webkit-transform:skew(45deg,0);
     transform:skew(45deg,0);
     width:0;
@@ -3201,7 +3196,7 @@ span.sitename {
 }
 .links ul li:hover {
     color:#27323a;
-    border:1px solid orange
+    border:1px solid #ff6666
 }
 .links ul li:hover:before {
     width:180%
@@ -3478,7 +3473,7 @@ a.page-numbers {
     font-weight:600
 }
 .comment h4 a:hover {
-    color:orange
+    color:#ff6666
 }
 .comment hr {
     clear:both;
@@ -3631,9 +3626,9 @@ a.page-numbers {
     text-shadow:none
 }
 .comment-respond input[type='submit']:hover {
-    border:1px solid #fe9600;
+    border:1px solid #ff6666;
     background:none !important;
-    color:#fe9600
+    color:#ff6666
 }
 .comment-respond input[type='submit']:hover {
     background:#5aa738
@@ -3727,7 +3722,7 @@ a.page-numbers {
     line-height:1
 }
 .siren-checkbox-radio:checked+.siren-checkbox-radioInput:after {
-    background-color:#fe9600;
+    background-color:#ff6666;
     border-radius:100%;
     content:"";
     display:block;
@@ -3953,7 +3948,6 @@ li.feature-2 {
     }
     .top-social_v2 li {
         margin-right: 0px !important; 
-        cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/ayuda.cur),auto !important;
     }
 }
 #bgvideo {
@@ -4356,7 +4350,7 @@ i.iconfont.js-toggle-search.iconsearch {
     padding:10px 0
 }
 .sorry li a:hover {
-    color:orange
+    color:#ff6666
 }
 .sorry-inner {
     padding:20px;
@@ -4371,14 +4365,14 @@ i.iconfont.js-toggle-search.iconsearch {
 .err-button.back a {
     padding:10px 30px;
     margin:0 10px;
-    border:1px solid orange;
-    color:orange;
+    border:1px solid #ff6666;
+    color:#ff6666;
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
     border-radius:50px
 }
 #gohome {
-    background:orange;
+    background:#ff6666;
     color:#fff
 }
 .err-button.back a:hover {
@@ -4491,7 +4485,7 @@ embed,iframe,object {
     position:absolute
 }
 #nprogress .bar {
-    background:orange;
+    background:#ff6666;
     position:fixed;
     z-index:1031;
     top:0;
@@ -4505,7 +4499,7 @@ embed,iframe,object {
     right:0;
     width:100px;
     height:100%;
-    box-shadow:0 0 10px orange,0 0 5px orange;
+    box-shadow:0 0 10px #ff6666,0 0 5px #ff6666;
     opacity:1;
     -webkit-transform:rotate(3deg) translate(0px,-4px);
     -ms-transform:rotate(3deg) translate(0px,-4px);
@@ -4527,8 +4521,8 @@ embed,iframe,object {
     height:20px;
     box-sizing:border-box;
     border:solid 3px transparent;
-    border-top-color:orange;
-    border-left-color:orange;
+    border-top-color:#ff6666;
+    border-left-color:#ff6666;
     border-radius:50%;
     -webkit-animation:nprogress-spinner 400ms linear infinite;
     animation:nprogress-spinner 400ms linear infinite
@@ -4632,8 +4626,8 @@ i.iconfont.down {
     font-size:15px
 }
 #pagination a:hover {
-    border:1px solid orange;
-    color:orange
+    border:1px solid #ff6666;
+    color:#ff6666
 }
 #pagination .loading {
     background:url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg");
@@ -4796,7 +4790,7 @@ i.iconfont.down {
         display:none
     }
     .links ul li:hover .sitename {
-        color:orange
+        color:#ff6666
     }
     .links ul li:hover .linkdes {
         color:#949494;
@@ -5009,7 +5003,7 @@ i.iconfont.js-toggle-search.iconsearch {
 }
 #mo-nav ul li a:hover {
     cursor:pointer;
-    color:orange
+    color:#ff6666
 }
 .we-content li {
     height:250px
@@ -5561,7 +5555,6 @@ i.iconfont.js-toggle-search.iconsearch {
     border:0;
     color:#fff;
     line-height:1;
-    cursor:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur),auto;
     font-size:14px;
     font-weight:500;
     padding:7px 15px;
@@ -5687,7 +5680,6 @@ button.botui-actions-buttons-button::-moz-focus-inner,input.botui-actions-text-i
     padding:0
 }
 button.botui-actions-buttons-button {
-    cursor:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur),auto;
     -webkit-appearance:button
 }
 .botui-app-container {
@@ -5804,16 +5796,16 @@ button.botui-actions-buttons-button {
     width:auto
 }
 .logolink a:hover .sakurasono {
-    background-color:orange;
+    background-color:#ff6666;
     color:#fff
 }
 .logolink a:hover .shironeko,.logolink a:hover rt {
-    color:orange
+    color:#ff6666
 }
 .logolink.moe-mashiro a {
     color:#464646;
     float:left;
-    font-size:28px;
+    font-size:25px;
     font-weight:800;
     height:56px;
     line-height:56px;
@@ -5823,7 +5815,7 @@ button.botui-actions-buttons-button {
     text-decoration-line:none
 }
 .logolink.moe-mashiro .sakurasono {
-    font-size:25px;
+    font-size:28px;
     border-radius:9px;
     padding-bottom:2px;
     padding-top:5px
@@ -6191,7 +6183,7 @@ button.botui-actions-buttons-button {
 }
 @media(min-width:861px) {
     .hide-live2d {
-    background-color:orange;
+    background-color:#ff6666;
     bottom:156px;
     visibility:visible;
     min-height:38.75px
@@ -6599,7 +6591,7 @@ progress {
     color:#000
 }
 .art .art-content #archives a:hover {
-    color:orange
+    color:#ff6666
 }
 .art .art-content #archives .al_year {
     padding-left:100px
@@ -6750,7 +6742,7 @@ a.toc-link {
     width:2px
 }
 .is-active-link::before {
-    background-color:orange !important
+    background-color:#ff6666 !important
 }
 .flipx {
     -moz-transform:scaleX(-1);
@@ -6884,10 +6876,10 @@ to {
 }
 .motion-switcher-table th:hover {
     background-color:rgba(245,245,245,.5);
-    color:orange
+    color:#ff6666
 }
 .motion-switcher-table .on-hover {
-    color:orange
+    color:#ff6666
 }
 .motion-container {
     height:110px;
@@ -6927,7 +6919,6 @@ to {
     background-color:rgba(245,245,245,.8)
 }
 #emotion-toggle,.emotion-box,.on-hover,.emotion-item,.emoji-item,.tieba-container span {
-    cursor:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/No_Disponible.cur),auto
 }
 .alignright {
     width:auto !important
@@ -7119,8 +7110,8 @@ to {
     cursor:pointer
 }
 .insert-image-tips:hover {
-    color:orange;
-    border:1px solid orange
+    color:#ff6666;
+    border:1px solid #ff6666
 }
 .insert-image-button {
     opacity:0;
@@ -7133,8 +7124,8 @@ to {
     cursor:pointer
 }
 .insert-image-tips-hover {
-    color:orange;
-    border:1px solid orange
+    color:#ff6666;
+    border:1px solid #ff6666
 }
 .upload-image-preview {
     display:inline-block;
@@ -7328,7 +7319,6 @@ to {
     padding:2px;
     text-shadow:none;
     border-radius:0 0 5px 5px;
-    cursor:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/texto.cur),auto
 }
 .highlight-wrap code[data-rel]:before {
     color:#fff;
