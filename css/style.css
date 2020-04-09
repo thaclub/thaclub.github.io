@@ -930,6 +930,7 @@ html {
 body {
     background:#fff;
     background-attachment:fixed;
+	background:#fff url(https://cdn.jsdelivr.net/gh/sldarkwd/pictures@4ab762d/th/bg.jpg) no-repeat fixed top
 }
 blockquote:before,blockquote:after,q:before,q:after {
     content:""
@@ -2130,7 +2131,7 @@ i.iconfont.hotpost {
     border-radius:5px
 }
 .entry-content a {
-    color:#e67474;
+    color:#66ccff;
     text-decoration:underline dotted rgba(0,0,0,.1)
 }
 .entry-content a:hover {
